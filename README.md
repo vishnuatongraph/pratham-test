@@ -1,4 +1,4 @@
-# This is the Test project for Pratham software
+# This is the Test project
 
 This application is the test assignment which is created using nodejs, postgres database and sequelize Orm and React Js.
 This project gets the data of user and after that let that user create, update and delete the tasks.
