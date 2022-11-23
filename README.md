@@ -34,7 +34,7 @@ We created the schema in models folder. The schema will be auto generated when y
 We have User controller to insert the data of user in user table.
 We have task controller to create, update, delete and get the tasks.
 
-Frontend is developed using react js using most popular libraries like redux, redux-thunk, redux-toolkit, react-bootstrap etc.
+Frontend is developed using react js using most popular libraries like redux, redux-thunk, redux-toolkit, react-bootstrap etc. In front end user can login with id and name. If the user enters the id and name which is not in the db, the new user will be created else user gets sign in and can see the already created tasks.
 
 
 ## libraries used in the Project
