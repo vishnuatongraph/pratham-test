@@ -22,6 +22,8 @@ Install the required dependencies
 Runs the app in the development mode.\
 the server starts at [http://localhost:8080].
 
+Don't need to setup postgres local environment here as we used cloud Database url here. As you run npm start the whole app (database, server) will be started.
+
 ### `npm start` frontend
 
 Runs the app in the development mode.\
@@ -34,7 +36,12 @@ We created the schema in models folder. The schema will be auto generated when y
 We have User controller to insert the data of user in user table.
 We have task controller to create, update, delete and get the tasks.
 
-Frontend is developed using react js using most popular libraries like redux, redux-thunk, redux-toolkit, react-bootstrap etc. In front end user can login with id and name. If the user enters the id and name which is not in the db, the new user will be created else user gets sign in and can see the already created tasks.
+Frontend is developed using react js using most popular libraries like redux, redux-thunk, redux-toolkit, react-bootstrap etc. In front end user can login with id and name. If the user enters the id and name which is not in the db, the new user will be created and the user will logged in else user will be signed in and can see the already created tasks.
+
+credentials: 
+
+id: 1
+name: test
 
 
 ## libraries used in the Project
