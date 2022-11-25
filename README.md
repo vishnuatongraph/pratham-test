@@ -27,7 +27,7 @@ Don't need to setup postgres local environment here as we used cloud Database ur
 ### `npm start` frontend
 
 Runs the app in the development mode.\
-the server starts at [http://localhost:3000] [https://pratham-test.herokuapp.com].
+the server starts at [http://localhost:3000] [https://psi-test-frontend.vercel.app].
 
 ## About the project
 
