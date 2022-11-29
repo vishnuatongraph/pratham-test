@@ -1,5 +1,4 @@
 import React from 'react'
-import Dummy from "../assets/dummy.jpeg";
 import {useNavigate} from 'react-router-dom'
 
 
@@ -19,8 +18,8 @@ const Nav = () => {
           <>
             {" "}
             <div className="user">
-              <img src={Dummy} alt="user" className="image" />
-              <p className="username">{user.name}</p>
+              <img src={'https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50'} alt="user" className="image" />
+              <p className="username">{user?.username}</p>
             </div>
             <span className="logout" onClick={logout}>
               Logout

@@ -38,10 +38,11 @@ We have task controller to create, update, delete and get the tasks.
 
 Frontend is developed using react js using most popular libraries like redux, redux-thunk, redux-toolkit, react-bootstrap etc. In front end user can login with id and name. If the user enters the id and name which is not in the db, the new user will be created and the user will logged in else user will be signed in and can see the already created tasks.
 
-credentials: 
 
-id: 1
-name: test
+## Credentials
+
+username: John doe
+password: 123456
 
 
 ## libraries used in the Project
